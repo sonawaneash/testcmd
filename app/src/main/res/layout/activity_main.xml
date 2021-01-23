@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="604dp"
+        android:text="What is it that you truely Desire?"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:layout_marginVertical="200sp"
+    android:hint="Name"
+
+    />
+
+    <EditText
+        android:id="@+id/desire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginVertical="260sp"
+        android:hint="Desire"
+
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="330sp"
+        android:layout_marginEnd="43dp"
+        android:text="Button" />
+
+<TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="500sp"
+
+    />
+</RelativeLayout>
